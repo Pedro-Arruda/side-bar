@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D3E1F0;
+}
+
+ul {
+    list-style: none;
+}
+
+i {
+    font-size: 50px;
+    cursor: pointer;
+    position: fixed;
+    right: 2em;
+    top: 1em;
+}
+
+aside {
+    position: fixed;
+    background-color: white;
+    left: 0;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    font-size: 28px;
+    transform: translate(-100%);
+    transition: 0.7s;
+}
+
+h1, ul {
+    padding: 20px 30px;
+}
+
+li {
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+.ativo {
+    transform: translate(0);
+}
